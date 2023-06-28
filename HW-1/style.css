@@ -1,0 +1,233 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/*header*/
+
+.header-container {
+  display: flex;
+  max-width: 1181px;
+  height: 58px;
+  justify-content: space-between;
+  margin: 53px 20% 117px 20%;
+}
+
+.logo-container {
+  display: flex;
+  gap: 25px;
+}
+
+.list-container {
+  display: flex;
+  list-style: none;
+  gap: 37px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #202020;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #202020;
+}
+
+.nav-button {
+  border: none;
+  background: #5528ff;
+  border: none;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  width: 100px;
+  height: 24px;
+  color: #ffffff;
+}
+
+/*about us*/
+
+.about-us {
+  margin: 117px 20% 0 20%;
+}
+
+.about-title {
+  color: #202020;
+  text-align: center;
+  font-size: 57px;
+  font-weight: 700;
+  margin-left: -40px;
+}
+
+.about-text {
+  display: flex;
+  width: 741px;
+  margin-top: 35px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #4f4f4f;
+  font-size: 32px;
+  line-height: 160.86%;
+}
+
+.contact-button {
+  margin-top: 70px;
+  width: 235px;
+  height: 60px;
+  flex-shrink: 0;
+  border: none;
+  border-radius: 10px;
+  background: #5528ff;
+  color: #fff;
+  font-size: 24px;
+}
+
+/*divider*/
+
+.divider-wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
+.line-left {
+  width: 15%;
+  height: 0.5px;
+  flex-shrink: 0;
+  background: #c2c2c2;
+}
+
+.divider-title {
+  margin-left: 20px;
+  margin-right: 50px;
+  color: #c2c2c2;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.line-right {
+  width: 76%;
+  height: 0.5px;
+  flex-shrink: 0;
+  background: #c2c2c2;
+}
+
+/*our services*/
+
+.our-services-wrapper {
+  display: flex;
+  gap: 82px;
+  width: 60%;
+  margin: auto;
+}
+
+.our-services-wrapper-column {
+  display: flex;
+  flex-direction: column;
+  gap: 82px;
+}
+
+.services-card {
+  display: flex;
+ align-items: center;
+ justify-content: center; 
+ gap: 60px;
+}
+
+.services-title {
+  color: #000;
+  font-size: 28px;
+}
+
+.services-text {
+  color: #b2b2b2;
+  font-size: 14px;
+}
+
+/*our clients*/
+
+.our-clients-wrapper {
+  height: 410px;
+  display: flex;
+  margin: 60px 20% 0 20%;
+  justify-content: space-between;
+}
+
+.our-clients-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/*Team*/
+
+.team-wrapper {
+  display: flex;
+  margin: 100px 20% 200px 20%;
+  height: 620px;
+  justify-content: space-between;
+}
+
+.team-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.member-of-team {
+  display: flex;
+  gap: 35px;
+}
+
+.member-of-team-photo {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.member-of-team-desctiption {
+  /*сделать интервал между именем и должностью 11 px*/
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.member-of-team-name {
+  color: #202020;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.member-of-team-position {
+  color: #b2b2b2;
+  font-size: 14px;
+}
+
+/*footer*/
+
+.footer-container {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding: 20px 20% 20px 20%;
+  justify-content: space-between;
+  background: #f7f7f7;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
