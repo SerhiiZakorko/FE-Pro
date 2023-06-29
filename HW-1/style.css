@@ -134,14 +134,13 @@ body {
   display: flex;
   flex-direction: column;
   gap: 82px;
-  
 }
 
 .services-card {
   display: flex;
  align-items: center;
  justify-content: center; 
-gap: 60px;
+ gap: 60px;
 }
 
 .services-title {
