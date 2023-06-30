@@ -1,40 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-   <header>
-    <nav>
-        <div class="logo-wrapper"><img class="heroku-logo" src="./img/heroku-main-logo.svg" alt="heroku-logo"></div>
-        <div class="nav-wrapper">
-            <a class="nav-button">Products</a>
-            <a class="nav-button">Marketplace</a>
-            <a class="nav-button">Pricing</a>
-            <a class="nav-button">Documentation</a>
-            <a class="nav-button">Support</a>
-            <a class="nav-button">More</a>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo-wrapper">
+          <img
+            class="heroku-logo"
+            src="./img/heroku-main-logo.svg"
+            alt="heroku-logo"
+          />
+          <a class="nav-button"
+            >Products <img class="nav-more" src="./img/nav-more.svg" alt="more"
+          /></a>
+          <a class="nav-button"
+            >Marketplace
+            <img class="nav-more" src="./img/nav-more.svg" alt="more"
+          /></a>
+          <a class="nav-button">Pricing</a>
+          <a class="nav-button">Documentation</a>
+          <a class="nav-button">Support</a>
+          <a class="nav-button"
+            >More <img class="nav-more" src="./img/nav-more.svg" alt="more"
+          /></a>
         </div>
         <div class="tools">
-            <input type="search" >
-            <button>Log in </button>
-            <p>or</p>
-            <button>Sign Up</button>
+          <div class="search-wrapper">
+            <input id="search" type="text" placeholder="Search Elements" />
+            <img id="search-img" src="./img/search.png" alt="search" />
+          </div>
+          <button id="log-in">Log in</button>
+          <p id="or">or</p>
+          <button id="sign-up">Sign Up</button>
         </div>
-    </nav>
-    <main>
-        <img src="" alt="logo-big">
+      </nav>
+      <div class="header-container">
+        <img class="button-icon" src="./img/Untitled.png" alt="button-icon" />
         <h1>Heroku Buttons</h1>
-        <p class="main-description">Your one-click provision, configure and deploy third party components, libraries and pattern apps.</p>
-    </main>
-   </header>
-   <section class="divides">
-<a href=""><img src="" alt="Add-ons">Add-ons</a>
-<a href=""><img src="" alt="Buttons">Buttons</a>
-<a href=""><img src="" alt="Buildpacks">Buildpacks</a>
-   </section>
-</body>
+        <p class="main-description">
+          Your one-click provision, configure and deploy third party components,
+          libraries and pattern apps.
+        </p>
+      </div>
+    </header>
+    <section class="divides">
+      <a href=""><img src="" alt="Add-ons" />Add-ons</a>
+      <a href=""><img src="" alt="Buttons" />Buttons</a>
+      <a href=""><img src="" alt="Buildpacks" />Buildpacks</a>
+    </section>
+  </body>
 </html>
