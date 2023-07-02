@@ -123,9 +123,6 @@ nav {
   align-items: center;
 }
 
-.button-icon {
-}
-
 h1 {
   font-family: "BentonSans", "Helvetica Neue", sans-serif;
   color: #fff;
@@ -141,4 +138,138 @@ h1 {
   color: #ccbfdb;
   line-height: 1.2;
   letter-spacing: 1.3px;
+}
+
+.divides {
+  display: flex;
+  background-color: #eef1f6;
+  padding: 12.5px 12.5%;
+  border-bottom: 3px solid rgba(121, 88, 159, 0);
+  gap: 25px;
+}
+
+.divides a {
+  font-size: 17px;
+  line-height: 1.5;
+  text-decoration: none;
+  color: rgba(121, 88, 159, 0.6);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.divides img {
+  width: 16px;
+  height: 18px;
+}
+
+main {
+  max-width: 76%;
+  margin: auto;
+}
+
+.main-title {
+  border-bottom: 1px solid #d8dde6;
+  padding: 45px 0 10px 0;
+  margin-bottom: 30px;
+  display: inline-block;
+  width: 100%;
+  font-size: 17px;
+  font-weight: 400;
+  color: #3f3f44;
+}
+
+.buttons {
+  display: flex;
+  gap: 5px;
+}
+
+.button-container {
+  width: calc(25% - 5px);
+  border: 1px solid #d8dde6;
+  border-radius: 2px;
+  position: relative;
+}
+
+.button-wrapper {
+  padding: 20px;
+}
+
+.btn-img-wrapper {
+  display: flex;
+  gap: 7px;
+}
+
+.btn-img-wrapper h4 {
+  font-weight: 100;
+  font-size: 13px;
+  color: #3f3f44;
+  margin-bottom: 10px;
+  min-height: 24px;
+  letter-spacing: 1px;
+}
+
+.button-img {
+  width: 24px;
+  height: 24px;
+}
+
+.button-title {
+  margin: 10px 0;
+  color: #3f3f44;
+}
+
+.btn-card-divider {
+  height: 0.5px;
+  margin: 20px 0px;
+  background: linear-gradient(to left, #64438b, #c6ace5);
+}
+
+.button-descr {
+  font-size: 12px;
+  color: #4c4c4c;
+  margin-bottom: 0;
+}
+
+.button-info {
+  background: rgba(242, 242, 245, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10px;
+  vertical-align: middle;
+  margin-top: auto;
+}
+
+.button-statistic {
+  display: flex;
+}
+
+.recent,
+.star,
+.fork {
+  display: flex;
+  gap: 4px;
+}
+
+.recent img,
+.star img,
+.fork img {
+  width: 12px;
+  height: 12px;
+}
+
+.recent p,
+.star p,
+.fork p {
+  display: inline-block;
+  margin-right: 10px;
+  color: #3f3f44;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.button-info-img {
+  width: 14.4px;
+  height: 14px;
 }
