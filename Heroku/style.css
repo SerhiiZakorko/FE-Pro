@@ -185,10 +185,11 @@ main {
 }
 
 .button-container {
+  display: flex;
+  flex-direction: column;
   width: calc(25% - 5px);
   border: 1px solid #d8dde6;
-  border-radius: 2px;
-  position: relative;
+  border-radius: 2px;  
 }
 
 .button-wrapper {
