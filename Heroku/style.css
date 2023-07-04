@@ -163,7 +163,7 @@ h1 {
   height: 18px;
 }
 
-main {
+.page-wrapper {
   max-width: 76%;
   margin: auto;
 }
@@ -180,14 +180,14 @@ main {
 }
 
 .buttons {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, calc(25% - 5px));
   gap: 5px;
 }
 
 .button-container {
   display: flex;
   flex-direction: column;
-  width: calc(25% - 5px);
   border: 1px solid #d8dde6;
   border-radius: 2px;  
 }
@@ -273,4 +273,9 @@ main {
 .button-info-img {
   width: 14.4px;
   height: 14px;
+}
+.all-buttons-container {
+  display: grid;
+  grid-template-columns: repeat(4, calc(25% - 5px));
+  gap: 5px;
 }
