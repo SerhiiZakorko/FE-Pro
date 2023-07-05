@@ -9,7 +9,6 @@ body {
 
 .header-container {
   display: flex;
-  max-width: 1181px;
   height: 58px;
   justify-content: space-between;
   margin: 53px 20% 117px 20%;
@@ -92,55 +91,43 @@ body {
 /*divider*/
 
 .divider-wrapper {
-  display: flex;
-  align-items: center;
-  margin-top: 100px;
-  height: 18px;
-  flex-shrink: 0;
-}
-
-.line-left {
-  width: 15%;
   height: 0.5px;
-  flex-shrink: 0;
-  background: #c2c2c2;
+  margin-top: 100px;
+  background-color: #c2c2c2;
+  position: relative;
 }
 
 .divider-title {
-  margin-left: 20px;
-  margin-right: 50px;
+  position: absolute;
+  top: -26px;
+  margin-left: 7%;
+  padding-left: 20px;
+  padding-right: 50px;
   color: #c2c2c2;
+  background-color: white;
   font-size: 14px;
   font-weight: 300;
-}
-
-.line-right {
-  width: 76%;
-  height: 0.5px;
-  flex-shrink: 0;
-  background: #c2c2c2;
 }
 
 /*our services*/
 
 .our-services-wrapper {
-  display: flex;
-  gap: 82px;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  column-gap: 85px;
   width: 60%;
-  margin: auto;
-}
-
-.our-services-wrapper-column {
-  display: flex;
-  flex-direction: column;
-  gap: 82px;
+  margin: 60px auto 0;
 }
 
 .services-card {
   display: flex;
- align-items: center;
- justify-content: center; 
- gap: 60px;
+  align-items: center;
+  gap: 60px;
+}
+
+.services-card img {
+  width: 80px;
+  height: 60px;
 }
 
 .services-title {
@@ -156,16 +143,17 @@ body {
 /*our clients*/
 
 .our-clients-wrapper {
-  height: 410px;
-  display: flex;
+  width: 60%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   margin: 60px 20% 0 20%;
-  justify-content: space-between;
+  row-gap: 50px;
 }
 
-.our-clients-column {
+.our-client {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
 }
 
 /*Team*/
@@ -175,6 +163,7 @@ body {
   margin: 100px 20% 200px 20%;
   height: 620px;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .team-column {
@@ -185,6 +174,7 @@ body {
 
 .member-of-team {
   display: flex;
+  min-width: 330px;
   gap: 35px;
 }
 
