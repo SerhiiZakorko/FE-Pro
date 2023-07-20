@@ -1,0 +1,40 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+footer{
+    background-color: #f0f0f0;
+    color: #211746;
+    font-family: "BentonSans", "Helvetica Neue", sans-serif;
+    font-size: 13px;
+}
+
+.footer_wrapper{
+    padding: 26px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+
+    display: flex;
+    gap: 15px
+}
+
+.title_wrapper{
+    width: 210px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 3px 0px;
+    color: #666;
+    transition: all 250ms;
+}
+
+li:hover {
+    color: #242424;
+}
