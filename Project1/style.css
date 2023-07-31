@@ -2,10 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  max-width: 1920px;
   margin: auto;
   font-family: "Oswald", sans-serif;
   font-weight: 500;
+}
+
+body{
+  max-width: 1920px;
 }
 
 /*HEADER*/
