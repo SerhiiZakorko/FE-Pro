@@ -53,25 +53,25 @@ button {
 }
 
 #info-reg, #info-log{
-    margin: 15px auto 30px 0;
-    font-size: 20px;
+  margin: 15px auto 30px 0;
+  font-size: 20px;
 }
 
 .message-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   padding: 20px 10% 20px 10%;
 }
 
 .message {
-    margin: 0;
+  margin: 0;
   font-size: 25px;
   color: rgb(35, 35, 35);
 }
 
 #back-btn{
-    margin: 0;
+  margin: 0;
 }
 
 .sign-up {
