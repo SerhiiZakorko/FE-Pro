@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin: auto;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+}
+
+body{
+  max-width: 1920px;
+}
+
+
