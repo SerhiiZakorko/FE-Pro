@@ -32,7 +32,12 @@ function getCards(link) {
 }
 
 function postCard(link) {
-  fetch(link, {
+  const userID = document.querySelector('.user-Id')
+  const postTitle = document.querySelector('.post-title')
+  const postText = document.querySelector('.post-text')
+  userID.value === '' || postTitle.value === '' || postText.value === '' 
+  ? message.innerHTML = `<p>All fields are requaired</p>`
+  : fetch(link, {
     method: "POST",
     body: JSON.stringify(newPost),
     headers: {
