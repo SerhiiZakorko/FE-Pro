@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.message {
+  width: 30%;
+  margin: auto;
+}
+form {
+  width: 30%;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.tags {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-left: 20%;
+  gap: 3px;
+}
+.target {
+  padding: 3%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 2%;
+  row-gap: 4%;
+}
+.card {
+  padding-top: 25px;
+  border: 1px solid black;
+  position: relative;
+}
+.card button {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+.card h3 {
+  margin-left: 5%;
+  padding: 2%;
+  font-size: 20px;
+  text-align: justify;
+}
+.card p {
+  padding: 2%;
+  text-align: justify;
+}
