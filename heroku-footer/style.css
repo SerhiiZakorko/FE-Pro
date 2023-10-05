@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.footer-container{
+    background-color: rgb(241, 242, 242);
+    padding: 80px 10%;
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    grid-template-columns: 3fr 1.2fr;
+}
+.links-part{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.links-group h3{
+    color: rgb(41, 41, 102);
+    font-size: 16px;
+    letter-spacing: 1.5px;
+}
+.links-group a{
+    color: rgb(47, 47, 56);
+    font-size: 14px;
+    letter-spacing: 1.2px;
+    cursor: pointer;
+}
+.links-wrapper {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;   
+}
+.footer-title-wrapper{
+    display: flex;
+    margin-top: 0; 
+    gap: 3%; 
+}
+.footer-title-wrapper button{
+    border: none;
+    color: blue;
+    font-size: 20px;
+    font-weight: 300;
+}
+.footer-title-wrapper h3{
+    color: blue;
+    letter-spacing: 1.2px;
+    font-weight: 300;
+}
+.email-wrapper-wrapper p{
+    margin: 20px 0 15px 0;
+    color: rgb(47, 47, 56);
+    font-size: 14px;
+    letter-spacing: 1.2px;
+}
+.email-wrapper{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 40px;
+    border: 0.5px solid rgb(208, 208, 209);
+    border-radius: 5px;
+    padding: 3px;
+}
+.email-wrapper input{
+    border: none;
+}
+.email-wrapper button{
+    border: none;
+    border-radius: 3px;
+    padding: 7px;
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.grey-line{
+    margin-top: 15px;
+    height: 1px;
+    background-color: rgb(210, 208, 208);
+}
+.social-icons{
+    margin-top: 20px;
+    display: flex;
+    gap: 5%;
+}
+.social-icons a{
+    font-size: 25px;
+    color: rgb(97, 97, 103);
+    cursor: pointer;
+}
